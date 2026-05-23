@@ -69,8 +69,12 @@ nav a {
   color: #385149;
 }
 
+nav a[aria-current="page"] {
+  color: #a25333;
+}
+
 .hero,
-.split-section,
+.page-section,
 .services-section,
 .footer {
   margin: 0 auto;
@@ -87,9 +91,8 @@ nav a {
   padding-block: clamp(44px, 8vw, 92px);
 }
 
-.hero-copy,
-.section-copy,
-.section-heading {
+.page-copy,
+.services-intro {
   max-width: 650px;
 }
 
@@ -168,22 +171,25 @@ a:focus-visible {
   outline-offset: 4px;
 }
 
-.hero-image,
-.section-image {
+.page-image {
   border-radius: 8px;
   box-shadow: 0 26px 80px rgba(34, 48, 43, 0.18);
   overflow: hidden;
 }
 
-.hero-image img,
-.section-image img {
+.page-image img {
   aspect-ratio: 1.45;
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
 
-.split-section {
+.hero-action {
+  margin-top: 22px;
+}
+
+.page-section,
+.services-intro {
   align-items: center;
   display: grid;
   gap: clamp(30px, 6vw, 70px);
@@ -195,13 +201,11 @@ a:focus-visible {
   padding-block: clamp(54px, 9vw, 110px);
 }
 
-.section-heading {
+.services-intro {
   margin-bottom: 34px;
-}
-
-.section-heading p {
-  color: #314840;
-  font-size: 1.12rem;
+  max-width: 1180px;
+  padding-block: 0 44px;
+  padding-inline: 0;
 }
 
 .service-grid {
@@ -226,6 +230,11 @@ a:focus-visible {
 
 .service-card-copy {
   padding: 22px;
+}
+
+.service-card h2 {
+  font-size: 1.35rem;
+  margin-bottom: 12px;
 }
 
 .service-card strong {
@@ -279,7 +288,8 @@ a:focus-visible {
   }
 
   .hero,
-  .split-section {
+  .page-section,
+  .services-intro {
     grid-template-columns: 1fr;
   }
 

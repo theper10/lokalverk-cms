@@ -18,7 +18,9 @@ Första starten bygger containrarna, startar PostgreSQL, bygger Strapis adminpan
 
 ## URL:er
 
-- Webbplats: [http://localhost:8080](http://localhost:8080)
+- Startsida: [http://localhost:8080](http://localhost:8080)
+- Om-sida: [http://localhost:8080/om](http://localhost:8080/om)
+- Tjänster-sida: [http://localhost:8080/tjanster](http://localhost:8080/tjanster)
 - Strapi admin: [http://localhost:8080/admin](http://localhost:8080/admin)
 - Strapi REST API via Nginx: [http://localhost:8080/api](http://localhost:8080/api)
 - Uppladdade mediafiler: [http://localhost:8080/uploads](http://localhost:8080/uploads)
@@ -42,6 +44,8 @@ Uppgifterna kan ändras med variablerna `ADMIN_EMAIL` och `ADMIN_PASSWORD`. För
 4. Redigera poster under **Page** för sidorna Home, About och Services.
 5. Redigera poster under **Service** för företagets tjänster.
 6. Spara. Webbplatsen hämtar innehåll från Strapis REST API och visar ändringarna vid omladdning.
+
+Webbplatsens navigation använder riktiga sidvägar: `/`, `/om` och `/tjanster`. Sidorna kan öppnas direkt eller laddas om i webbläsaren eftersom Nginx skickar klientrutter till React-frontenden.
 
 Varje sida har redigerbara fält för namn, slug, rubrik, ingress, brödtext, knapptext, sorteringsordning och bild. Tjänsterna har namn, kort beskrivning, längre beskrivning, pris, sorteringsordning och bild.
 

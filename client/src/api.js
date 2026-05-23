@@ -26,17 +26,6 @@ export const getPage = async (slug) => {
   return data.length > 0 ? unwrap(data[0]) : null;
 };
 
-export const getPages = async () => {
-  const params = new URLSearchParams();
-  params.append('filters[slug][$in][0]', 'about');
-  params.append('filters[slug][$in][1]', 'services');
-  params.append('populate', 'heroImage');
-  params.append('sort', 'sortOrder:asc');
-
-  const data = await request(`/pages?${params.toString()}`);
-  return data.map(unwrap);
-};
-
 export const getServices = async () => {
   const params = new URLSearchParams();
   params.append('populate', 'coverImage');
