@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Snickarteam</title>
+  <desc id="desc">Illustration of two carpenters discussing drawings beside a table.</desc>
+  <rect width="1200" height="760" fill="#eef4f0"/>
+  <rect x="0" y="545" width="1200" height="215" fill="#263b35"/>
+  <rect x="150" y="170" width="900" height="410" rx="26" fill="#fff7eb"/>
+  <circle cx="405" cy="285" r="58" fill="#bf8156"/>
+  <circle cx="790" cy="285" r="58" fill="#8a5d43"/>
+  <path d="M295 505c23-120 73-178 149-178s126 58 149 178z" fill="#4c7766"/>
+  <path d="M678 505c22-120 72-178 149-178s127 58 149 178z" fill="#dfac50"/>
+  <rect x="285" y="500" width="630" height="48" rx="14" fill="#7d5536"/>
+  <rect x="382" y="392" width="430" height="92" rx="10" fill="#f5ead9"/>
+  <path d="M420 430h150M420 456h240M640 430h112" stroke="#4e635a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M245 170h710" stroke="#6f8d7b" stroke-width="16" stroke-linecap="round"/>
+  <path d="M140 620c169-36 320-36 454 0s290 36 466 0" fill="none" stroke="#d8bd7f" stroke-width="30" stroke-linecap="round"/>
+</svg>

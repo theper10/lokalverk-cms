@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Utemiljo i tra</title>
+  <desc id="desc">Illustration of wooden outdoor steps and planters.</desc>
+  <rect width="1200" height="760" fill="#eaf4ef"/>
+  <circle cx="955" cy="150" r="88" fill="#f2c766"/>
+  <rect x="0" y="485" width="1200" height="275" fill="#2f493e"/>
+  <path d="M0 455c170-50 306-52 470-4 178 52 329 55 522 5 95-25 159-28 208-13v68H0z" fill="#7da17d"/>
+  <rect x="215" y="345" width="710" height="70" rx="12" fill="#c48643"/>
+  <rect x="255" y="415" width="635" height="70" rx="12" fill="#b8773e"/>
+  <rect x="300" y="485" width="545" height="70" rx="12" fill="#98653c"/>
+  <rect x="160" y="338" width="105" height="165" rx="10" fill="#6d4a34"/>
+  <rect x="895" y="338" width="105" height="165" rx="10" fill="#6d4a34"/>
+  <path d="M195 326c-18-58 8-112 50-145 31 50 24 107-15 145z" fill="#5f8e6e"/>
+  <path d="M920 326c-12-69 30-123 85-148 20 60 4 113-48 148z" fill="#6e9c78"/>
+  <path d="M345 390h510M390 460h420M440 530h320" stroke="#704727" stroke-width="10" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Platsbyggd forvaring</title>
+  <desc id="desc">Illustration of a custom built cabinet with shelves and drawers.</desc>
+  <rect width="1200" height="760" fill="#f7f2e8"/>
+  <rect x="0" y="0" width="1200" height="155" fill="#c9ded4"/>
+  <rect x="230" y="130" width="740" height="520" rx="22" fill="#486a5c"/>
+  <rect x="278" y="178" width="300" height="195" rx="12" fill="#fff8ec"/>
+  <rect x="622" y="178" width="300" height="195" rx="12" fill="#fff8ec"/>
+  <rect x="278" y="420" width="300" height="170" rx="12" fill="#d9a650"/>
+  <rect x="622" y="420" width="300" height="170" rx="12" fill="#d9a650"/>
+  <path d="M330 245h195M330 305h130M675 245h195M675 305h120" stroke="#6c4c36" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="430" cy="505" r="16" fill="#fff8ec"/>
+  <circle cx="774" cy="505" r="16" fill="#fff8ec"/>
+  <path d="M205 665h790" stroke="#2d3934" stroke-width="28" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Snickeriverkstad</title>
+  <desc id="desc">Illustration of a warm carpentry workshop with tools and timber.</desc>
+  <rect width="1200" height="760" fill="#f4efe6"/>
+  <rect x="0" y="0" width="1200" height="220" fill="#d9e8df"/>
+  <rect x="0" y="565" width="1200" height="195" fill="#343a34"/>
+  <rect x="120" y="245" width="960" height="300" rx="24" fill="#fff8ed"/>
+  <rect x="180" y="315" width="840" height="42" rx="10" fill="#8b5e34"/>
+  <rect x="220" y="357" width="48" height="180" fill="#60462f"/>
+  <rect x="932" y="357" width="48" height="180" fill="#60462f"/>
+  <rect x="260" y="420" width="680" height="34" rx="8" fill="#c88a43"/>
+  <rect x="305" y="275" width="110" height="34" rx="8" fill="#4b6f60"/>
+  <rect x="445" y="275" width="160" height="34" rx="8" fill="#e3a646"/>
+  <rect x="635" y="275" width="80" height="34" rx="8" fill="#7b4435"/>
+  <rect x="745" y="275" width="150" height="34" rx="8" fill="#4b6f60"/>
+  <circle cx="560" cy="498" r="42" fill="#d7b48a"/>
+  <circle cx="650" cy="498" r="42" fill="#b9824f"/>
+  <path d="M170 230h860" stroke="#34423a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M270 210v-70h120v70" fill="#7b4435"/>
+  <path d="M480 210v-92h240v92" fill="#40584f"/>
+  <path d="M810 210v-58h130v58" fill="#c88a43"/>
+  <path d="M122 610c180-45 339-45 477 0s292 45 459 0" fill="none" stroke="#6f8d7b" stroke-width="28" stroke-linecap="round"/>
+</svg>
